@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f3ac22-cf96-471d-a5f6-832dd1bc5eaa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/EncodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/AddressServiceITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/AddressServiceITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/UserServiceITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/UserServiceITest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "com.amazon.ijbp.awstoolkit.codewhisperer.Model_Has_Been_Selected": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Rebasing master",
     "last_opened_file_path": "/Volumes/workplace/SamplePackages/blog-2014-12-06-mock-spring-bean",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,6 +61,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="net.lkrnac.blog.testing.mockbean" />
+    </key>
+  </component>
   <component name="RubyModuleManagerSettings">
     <option name="blackListedRootsPaths">
       <list>
@@ -108,5 +115,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
