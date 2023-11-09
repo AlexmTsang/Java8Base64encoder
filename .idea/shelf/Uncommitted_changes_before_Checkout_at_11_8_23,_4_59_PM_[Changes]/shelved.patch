@@ -1,0 +1,39 @@
+Index: notes_profiling.json
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>{\n    \"final_status\": \"success\",\n    \"nb_self_debugging_steps\": 0,\n    \"used_notes\": [\n        {\n            \"note_id\": \"('junit', 'junit')\",\n            \"count\": 1\n        },\n        {\n            \"note_id\": \"('org.springframework.boot', 'spring-boot-maven-plugin')\",\n            \"count\": 1\n        },\n        {\n            \"note_id\": \"('org.springframework.boot', 'spring-boot-starter-test')\",\n            \"count\": 1\n        },\n        {\n            \"note_id\": \"('org.springframework.boot', 'spring-boot-starter')\",\n            \"count\": 1\n        },\n        {\n            \"note_id\": \"('org.apache.commons', 'commons-lang3')\",\n            \"count\": 1\n        }\n    ]\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/notes_profiling.json b/notes_profiling.json
+--- a/notes_profiling.json	
++++ b/notes_profiling.json	
+@@ -1,25 +1,13 @@
+ {
+-    "final_status": "success",
++    "final_status": "fail",
+     "nb_self_debugging_steps": 0,
+     "used_notes": [
+         {
+-            "note_id": "('junit', 'junit')",
+-            "count": 1
+-        },
+-        {
+-            "note_id": "('org.springframework.boot', 'spring-boot-maven-plugin')",
++            "note_id": "('org.apache.commons', 'commons-lang3')",
+             "count": 1
+         },
+         {
+-            "note_id": "('org.springframework.boot', 'spring-boot-starter-test')",
+-            "count": 1
+-        },
+-        {
+-            "note_id": "('org.springframework.boot', 'spring-boot-starter')",
+-            "count": 1
+-        },
+-        {
+-            "note_id": "('org.apache.commons', 'commons-lang3')",
++            "note_id": "('junit', 'junit')",
+             "count": 1
+         }
+     ]

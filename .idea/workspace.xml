@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62f3ac22-cf96-471d-a5f6-832dd1bc5eaa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/EncodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/AddressServiceITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/AddressServiceITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/ApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/UserServiceITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/UserServiceITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lkrnac/blog/testing/mockbean/AddressDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lkrnac/blog/testing/mockbean/AddressService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lkrnac/blog/testing/mockbean/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lkrnac/blog/testing/mockbean/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lkrnac/blog/testing/mockbean/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/AddressServiceITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/AddressServiceITest.java_bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/ApplicationTests.java_bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/EncodeTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/UserServiceITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/UserServiceITest.java_bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/fake/AddressDaoMock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/net/lkrnac/blog/testing/mockbean/fake/AddressServiceSpy.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +32,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="AI-migrating-branch1699492518" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -37,30 +50,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "com.amazon.ijbp.awstoolkit.codewhisperer.Model_Has_Been_Selected": "true",
-    "git-widget-placeholder": "Rebasing master",
-    "last_opened_file_path": "/Volumes/workplace/SamplePackages/blog-2014-12-06-mock-spring-bean",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "ruby.rails.projectView.checked": "true",
-    "settings.editor.selected.configurable": "preferences.externalTools",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.amazon.ijbp.awstoolkit.codewhisperer.Model_Has_Been_Selected&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Rebasing master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Volumes/workplace/SamplePackages/blog-2014-12-06-mock-spring-bean&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalTools&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="net.lkrnac.blog.testing.mockbean" />
