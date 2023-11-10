@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class EncodeTest {
-//    @Test
+    @Test
     public void TestEncode(){
         Assert.assertEquals(com.mycompany.app.App.Encode(), "Hello");
     }
